@@ -1,0 +1,19 @@
+{
+  "name": "backup-api",
+  "version": "1.0.0",
+  "description": "To manage your Backups more easily",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Endd2604",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "fs-extra": "^11.2.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4"
+  }
+}
