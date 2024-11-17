@@ -1,7 +1,7 @@
 {
   "name": "endd-api",
   "version": "1.0.0",
-  "description": "Endd2604's Daily API",
+  "description": "Endd's Daily API",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
