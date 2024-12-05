@@ -1,0 +1,17 @@
+{
+  "name": "endd-api",
+  "version": "1.0.0",
+  "description": "Endd2604's Daily API",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Endd2604",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4"
+  },
+  "dependencies": {
+    "caller-path": "^4.0.0"
+  }
+}
