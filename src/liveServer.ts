@@ -8,7 +8,9 @@ export function liveServer(destination: string, port: number = 5500) {
   app.use(express.static(destination));
   app.listen(port, () => {
     url = `http://localhost:${port}`;
-    console.log(`Server hosted on ${url}!`);
+    console.log("\x1b[34m%s\x1b[0m", `Server is hosted at ${url}!`);
+    console.log("\x1b[34m%s\x1b[0m", `Enter CTRL + C to stop.`);
+    console.log("\x1b[33m%s\x1b[0m", `Opening browsers...`);
 
     tryOpenUrl(url);
   });
